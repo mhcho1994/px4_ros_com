@@ -61,3 +61,13 @@ rtps:
     send: true
   - msg: SensorCombined
     send: true
+  - msg: VehicleLocalPosition
+    send: true
+  - msg: VehicleAttitude
+    send: true
+  - msg: VehicleAttitudeSetpoint
+    receive: true
+  - msg: HoverThrustEstimate
+    send: true
+  - msg: TakeoffStatus
+    send: true
